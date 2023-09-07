@@ -1,6 +1,6 @@
 {
   "name": "unplugin-auto-expose",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Plugins for automatic exposeInMainWorld everything you exported from preload and easily importing exposed api in renderer",
   "main": "./dist/index.js",
   "module": "dist/index.mjs",
@@ -42,14 +42,14 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "magic-string": "0.30.0",
-    "mlly": "1.2.0",
-    "unplugin": "1.3.1"
+    "magic-string": "0.30.3",
+    "mlly": "1.4.2",
+    "unplugin": "1.4.0"
   },
   "devDependencies": {
-    "@types/node": "18.16.1",
-    "bumpp": "9.1.0",
-    "tsup": "6.7.0",
-    "typescript": "5.0.4"
+    "@types/node": "18.17.14",
+    "bumpp": "9.2.0",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2"
   }
 }
